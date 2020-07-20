@@ -1,0 +1,27 @@
+.header{
+
+        background-color:#F28F77;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: #292547;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #F2CCA4, #F5C55D, #F28F77)
+}
+
+.jumbotron h2 {
+    color: #292547;
+}
+.Navbar{
+    background-color: aqua;
+    display: flex;
+    text-decoration: none;
+
+}
