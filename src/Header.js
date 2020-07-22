@@ -1,16 +1,12 @@
 import React from 'react';
-import { Jumbotron, Navbar, NavbarBrand, Nav, NavItem, Container } from 'reactstrap';
+import { Jumbotron, Navbar, NavbarBrand, Nav, NavItem } from 'reactstrap';
 import './header.css'
 
 export default function Header() {
     return (
-        <div>
-            <Navbar expand="lg" variant="light" bg="light">
-  <Container>
-    <NavbarBrand href="#">Navbar</NavbarBrand>
-  </Container>
-</Navbar>
-            <Navbar bg="dark" variant="dark" sticky="top" className="navbar" expand="md">
+        <div className="Navbar" >
+            
+            <Navbar sticky="top" className="navbar" expand="md">
                 <div className="container">
                     <NavbarBrand className="mr-auto" href="/"><img src="../public/Bridgelogo.jpg" height="30" width="30" alt="Recipe logo" /></NavbarBrand>
                 </div>

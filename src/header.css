@@ -21,7 +21,7 @@
 }
 .Navbar{
     background-color: aqua;
-    display: flex;
+    display: inline;
     text-decoration: none;
 
 }
