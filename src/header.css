@@ -1,5 +1,4 @@
 .header{
-
         background-color:#F28F77;
         min-height: 50vh;
         display: flex;
@@ -19,9 +18,19 @@
 .jumbotron h2 {
     color: #292547;
 }
-.Navbar{
-    background-color: aqua;
-    display: inline;
-    text-decoration: none;
+.navbar{
+    background: #f08080;
+    padding: 0;
+    justify-self: right;
+}
+.navbar ul{
+    display: inline-block;
 
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    
 }

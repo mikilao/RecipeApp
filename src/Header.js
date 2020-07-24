@@ -10,7 +10,7 @@ export default function Header() {
                 <div className="container">
                     <NavbarBrand className="mr-auto" href="/"><img src="../public/Bridgelogo.jpg" height="30" width="30" alt="Recipe logo" /></NavbarBrand>
                 </div>
-                <Nav navbar>
+                <Nav className="navbar">
                     <NavItem>
 
                         <i className="fa fa-home fa-lg" /> Home
