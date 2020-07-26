@@ -8,9 +8,9 @@ export default function Header() {
             
             <Navbar sticky="top" className="navbar" expand="md">
                 <div className="container">
-                    <NavbarBrand className="mr-auto" href="/"><img src="../public/Bridgelogo.jpg" height="30" width="30" alt="Recipe logo" /></NavbarBrand>
-                </div>
-                <Nav className="navbar">
+                    <NavbarBrand className="ml-auto" href="/"><img src="../public/Bridgelogo.jpg" height="30" width="30" alt="Recipe logo" /></NavbarBrand>
+                
+                <Nav className="ml-500">
                     <NavItem>
 
                         <i className="fa fa-home fa-lg" /> Home
@@ -32,6 +32,7 @@ export default function Header() {
 
                                 </NavItem>
                 </Nav>
+                </div>
             </Navbar>
             <Jumbotron fluid className="header">
                 <div className="container">

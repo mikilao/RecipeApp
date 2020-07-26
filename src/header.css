@@ -21,16 +21,32 @@
 .navbar{
     background: #f08080;
     padding: 0;
-    justify-self: right;
+    position: relative;
+    
+}
+li{
+    align-items: center;
+    padding: 0px 10px 0px 10px; 
+    display: block;
+}
+.NavbarBrand img{
+    display: flex;
+    max-height: .5rem;
 }
 .navbar ul{
-    display: inline-block;
-
     margin-right: 20px;
-    height: 80px;        /* if you want it to take the full height of the bar */
+    height: 10px;        /* if you want it to take the full height of the bar */
     line-height: 8px;
     text-decoration: none;
     display: inline-flex;
     font-size: 16px;
-    
+    align-items: center;   
+ 
+}
+.container{
+	max-width: 1100px;
+	margin: auto;
+	overflow: hidden;
+	padding: 0 2rem;
+
 }

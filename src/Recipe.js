@@ -4,7 +4,7 @@ import './recipecard.css'
 
 const Recipe = ({title, calories, dietLabels,image, ingredients})=>{
     return(
-    <div className="recipes">
+    <div className="container">
        
         <Card className="recipes">
         
