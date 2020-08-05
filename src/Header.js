@@ -1,4 +1,6 @@
 import React from 'react';
+//import { FontAwesomeIcon } from '../node_modules/@fortawesome/react-fontawesome';
+//import { faHeart } from '../node_modules/@fortawesome/free-regular-svg-icons';
 import { Jumbotron, Navbar, NavbarBrand, Nav, NavItem } from 'reactstrap';
 import './header.css'
 
@@ -12,7 +14,7 @@ export default function Header() {
                 
                 <Nav className="ml-500">
                     <NavItem>
-
+                  
                         <i className="fa fa-home fa-lg" /> Home
 
                                 </NavItem>

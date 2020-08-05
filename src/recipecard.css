@@ -7,4 +7,15 @@
     max-width: 600px;
     max-height: 500px;
     min-width: 650px;
+    flex-basis: auto;
+    padding: 20px 0;
+    margin: 10px;
+    border-bottom: bisque solid 2px;
+}
+
+.title{
+    font-size: large;
+    font-weight: 600;
+    font: 'roboto';
+    margin-left: 15px;
 }

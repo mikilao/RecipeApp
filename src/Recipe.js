@@ -10,7 +10,7 @@ const Recipe = ({title, calories, dietLabels,image, ingredients})=>{
         
           <CardImg width="100%" src={image} alt={title} />
           <CardImgOverlay>
-            <CardTitle>{title}</CardTitle>
+            <CardTitle className="title">{title}</CardTitle>
             <h5>{dietLabels}</h5>
             <p>{calories}</p>
             <ol>
