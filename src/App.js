@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import Recipe from './Recipe';
 import './App.css';
 import Header from './Header';
+import Blog from './Pages/Blog';
+import Database from './Pages/Database';
 
 
 const App= ()=> {
@@ -33,11 +35,14 @@ const App= ()=> {
     }
   return (
     <div className="App">
+      
       <Header />
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" onChange={updateSearch} type="text"></input>
         <button  className="search-button" type="submit">Search</button>
         </form> 
+        <Blog />
+        <Database />
         {recipes.map(recipe =>(
           <div className="recipe">
           <Recipe 

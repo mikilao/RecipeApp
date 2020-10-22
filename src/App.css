@@ -11,6 +11,7 @@
   align-items: center;
   margin-top: 50px;
 }
+
 .search-bar{
   width: 50%;
   border: none;
@@ -18,10 +19,31 @@
 }
 .search-button{
   background:  burlywood;
+  padding: 10px;
 }
 .recipes {
   display: inline-flex;
   border: none;
   justify-content: space-around;
   margin-left: 40px;
+}
+.blog {
+  border-radius: 10px;
+  box-shadow: 0 5px 20px #808080;
+  display: inline-block;
+  justify-content: space-around;
+  align-items:center ;
+  max-width: 600px;
+  max-height: 500px;
+  min-width: 650px;
+  flex-basis: auto;
+  padding: 20px 40px;
+  margin: 70px 200px;
+  border-bottom: bisque solid 2px;
+}
+.blog h4{
+  font-size: large;
+}
+p {
+  font-size: small;
 }

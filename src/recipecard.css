@@ -19,3 +19,9 @@
     font: 'roboto';
     margin-left: 15px;
 }
+.image{
+    max-height: 350px;
+    max-width: 300px;
+    padding-right: 15px;
+    align-items: left;
+}
