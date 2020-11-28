@@ -2,8 +2,8 @@ import React from 'react';
 //import { FontAwesomeIcon } from '../node_modules/@fortawesome/react-fontawesome';
 //import { faHeart } from '../node_modules/@fortawesome/free-regular-svg-icons';
 import { Jumbotron, Navbar, NavbarBrand, Nav, NavItem } from 'reactstrap';
-import './header.css'
-
+import './header.css';
+import{Link} from 'react-router-dom';
 export default function Header() {
     return (
         <div className="Navbar" >
@@ -13,26 +13,27 @@ export default function Header() {
                     <NavbarBrand className="ml-auto" href="/"><img src="../public/Bridgelogo.jpg" height="30" width="30" alt="Recipe logo" /></NavbarBrand>
                 
                 <Nav className="ml-500">
+                    <Link>
                     <NavItem>
                   
                         <i className="fa fa-home fa-lg" /> Home
 
-                                </NavItem>
-                    <NavItem>
+                                </NavItem></Link>
+                    <Link><NavItem>
 
                         <i className="fa fa-list fa-lg" /> Directory
 
-                                </NavItem>
-                    <NavItem>
+                                </NavItem></Link>
+                   <Link><NavItem>
 
                         <i className="fa fa-info fa-lg" /> About
 
-                                </NavItem>
-                    <NavItem>
+                                </NavItem></Link> 
+                    <Link><NavItem>
 
                         <i className="fa fa-address-card fa-lg" /> Contact Us
 
-                                </NavItem>
+                                </NavItem></Link>
                 </Nav>
                 </div>
             </Navbar>
