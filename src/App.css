@@ -25,7 +25,7 @@
   display: inline-flex;
   border: none;
   justify-content: space-around;
-  margin-left: 40px;
+  margin-left: 180px;
 }
 .blog {
   border-radius: 10px;
@@ -37,12 +37,12 @@
   max-height: 500px;
   min-width: 650px;
   flex-basis: auto;
-  padding: 20px 40px;
-  margin: 70px 200px;
+  padding: 20px 500px;
+  margin: 70px 160px;
   border-bottom: bisque solid 2px;
 }
 .blog h4{
-  font-size: large;
+  font-size: 30px;
 }
 p {
   font-size: small;

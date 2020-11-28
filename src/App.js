@@ -5,8 +5,7 @@ import './App.css';
 import Header from './Header';
 import Blog from './Pages/Blog';
 import Database from './Pages/Database';
-
-
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 const App= ()=> {
   const APP_ID = "b4ed7552";
   const APP_KEY= "0db6cfdcdd3946c0da67de3c8b1735eb"
@@ -34,6 +33,7 @@ const App= ()=> {
    setQuery(search)
     }
   return (
+  <Router>
     <div className="App">
       
       <Header />
@@ -41,7 +41,8 @@ const App= ()=> {
         <input className="search-bar" onChange={updateSearch} type="text"></input>
         <button  className="search-button" type="submit">Search</button>
         </form> 
-        <Blog />
+        
+        <Route path="/blog" component={Blog}> </Route>
         <Database />
         {recipes.map(recipe =>(
           <div className="recipe">
@@ -57,6 +58,7 @@ const App= ()=> {
                   </div>
         ))}
     </div>
+    </Router>
   );
 };
 
