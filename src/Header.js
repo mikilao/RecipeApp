@@ -40,7 +40,7 @@ export default function Header() {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <h1>Recipe Blog</h1>
+                            <h1 className="bigTitle">Recipe Blog</h1>
                             <h2>Rachel's recipe search</h2>
                         </div>
                     </div>

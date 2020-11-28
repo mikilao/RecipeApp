@@ -31,11 +31,7 @@ const Database = ()=> {
     return (
       <div className="App">
         
-        
-        <form onSubmit={getSearch} className="search-form">
-          <input className="search-bar" onChange={updateSearch} type="text"></input>
-          <button  className="search-button" type="submit">Search</button>
-          </form> 
+
           
           {recipes.map(recipe =>(
             <div className="recipe">
@@ -54,3 +50,9 @@ const Database = ()=> {
     );
   };
   export default Database;
+
+          
+ /* <form onSubmit={getSearch} className="search-form">
+  <input className="search-bar" onChange={updateSearch} type="text"></input>
+  <button  className="search-button" type="submit">Search</button>
+  </form> */ 
