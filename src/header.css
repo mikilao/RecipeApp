@@ -34,7 +34,8 @@ li{
     display: block;
 }
 .NavbarBrand img{
-    display: flex;
+    display: inline;
+    margin-top: 50px;
     max-height: .5rem;
 }
 .navbar ul{

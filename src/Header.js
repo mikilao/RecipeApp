@@ -4,36 +4,44 @@ import React from 'react';
 import { Jumbotron, Navbar, NavbarBrand, Nav, NavItem } from 'reactstrap';
 import './header.css';
 import{Link} from 'react-router-dom';
+import Bridgelogo from "./Pages/Bridgelogo.jpg";
+
 export default function Header() {
     return (
         <div className="Navbar" >
             
             <Navbar sticky="top" className="navbar" expand="md">
                 <div className="container">
-                    <NavbarBrand className="ml-auto" href="/"><img src="../public/Bridgelogo.jpg" height="30" width="30" alt="Recipe logo" /></NavbarBrand>
+                    <NavbarBrand className="ml-auto" href="/"><img src={Bridgelogo} height="30" width="30" alt="Recipe logo" /></NavbarBrand>
                 
                 <Nav className="ml-500">
-                    <Link>
+                    <Link to='/'>
                     <NavItem>
                   
                         <i className="fa fa-home fa-lg" /> Home
 
                                 </NavItem></Link>
-                    <Link><NavItem>
+                    <Link to='/Directory'><NavItem>
 
                         <i className="fa fa-list fa-lg" /> Directory
 
                                 </NavItem></Link>
-                   <Link><NavItem>
+                   <Link>
+                   <NavItem>
 
                         <i className="fa fa-info fa-lg" /> About
 
                                 </NavItem></Link> 
-                    <Link><NavItem>
+                    <Link to="/Contact"><NavItem>
 
                         <i className="fa fa-address-card fa-lg" /> Contact Us
 
                                 </NavItem></Link>
+                                <Link><NavItem>
+
+<i className="fa fa-star fa-lg" /> Blog
+
+        </NavItem></Link>
                 </Nav>
                 </div>
             </Navbar>
