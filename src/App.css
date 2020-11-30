@@ -13,7 +13,7 @@
 }
 
 .search-bar{
-  width: 50%;
+  width: 80%;
   border: none;
   padding: 10px;
 }
@@ -51,4 +51,14 @@ p {
 .mainPic{
   height: 450px;
   width: 600px;
+}
+.footer{
+  padding: 20px 50px;
+  background-image: linear-gradient(90deg, #d53 0%, #daaff0 100%);
+  font-size: 16px;
+  align-items: center;
+
+}
+.form{
+  padding-left: 400px;
 }
